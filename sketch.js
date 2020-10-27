@@ -12,7 +12,7 @@ function setup(){
     world = engine.world;
 
    
-   ground = new Ground();
+   box1= new Box ();
     
     
 }
@@ -22,7 +22,7 @@ function draw(){
     Engine.update(engine);
         
 
-    ground.display();   
+    box1.display();   
 
     
 }
